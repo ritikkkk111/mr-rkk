@@ -1,2 +1,7 @@
-# Rewrite a path
-/pass-through /index.html    200
+[[redirects]]
+  from = "/day.html"
+  to = "file:///C:/Users/admin/Desktop/saveweb2zip-com-resurge-easybuypage-com/day.html
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
