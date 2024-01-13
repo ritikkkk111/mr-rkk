@@ -1,1 +1,4 @@
-/day.html/
+[[redirects]]
+from = "/pass-through"
+to = "/index.html"
+status = 200
