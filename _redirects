@@ -1,4 +1,2 @@
-[[redirects]]
-from = "/pass-through"
-to = "/index.html"
-status = 200
+# Rewrite a path
+/pass-through /index.html    200
